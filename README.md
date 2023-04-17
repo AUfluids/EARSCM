@@ -36,40 +36,40 @@ Copyright Information
 
 # Instructions
 
-Download the source code using git:
+         Download the source code using git:
 
-git clone git://github.com/AlbertoPa/dynamicSmagorinsky.git
+         git clone git://github.com/AUfluids/EARSCM.git
 
-Enter the directory where the source code has been extracted, and compile it by typing: wmake libso
+         Enter the directory where the source code has been extracted, and compile it by typing: wmake libso
 
-Add the following line to the controlDict of your case:
+         Add the following line to the controlDict of your case:
 
-libs ( "libOpenFOAM.so" "libEARSCM.so" ) ;
+         libs ( "libOpenFOAM.so" "libEARSCM.so" ) ;
 
-Specify
+         Specify
 
-RASModel EARSCM;
+         RASModel EARSCM;
 
-in turbulentProperties.
+         in turbulentProperties.
 
-Add the subdictionary
+         Add the subdictionary
 
-EARSCM { model PCA; c0 -0.17; c1 -0.18; c2 0.98; }
+         EARSCM { model PCA; c0 -0.17; c1 -0.18; c2 0.98; }
 
-to turbulentProperties.
+         to turbulentProperties.
 
 # How to cite
-Please, cite this library using the Zenodo DOI: DOI.
+         Please, cite this library using the Zenodo DOI: DOI.
 
-For release-specific DOIs, click on the badge and find the DOI corresponding to the desired version in the version list.
+         For release-specific DOIs, click on the badge and find the DOI corresponding to the desired version in the version list.
 
 # Disclaimer
-This offering is not approved or endorsed by OpenCFD Limited, the producer of the OpenFOAM software and owner of the OPENFOAM® and OpenCFD® trade marks.
+         This offering is not approved or endorsed by OpenCFD Limited, the producer of the OpenFOAM software and owner of the OPENFOAM® and OpenCFD® trade marks.
 
-Detailed information on the OpenFOAM trademark can be found at
+         Detailed information on the OpenFOAM trademark can be found at
 
-http://www.openfoam.com/legal/trademark-policy.php
-http://www.openfoam.com/legal/trademark-guidelines.php
-For further information on OpenCFD and OpenFOAM, please refer to
+         http://www.openfoam.com/legal/trademark-policy.php
+         http://www.openfoam.com/legal/trademark-guidelines.php
+         For further information on OpenCFD and OpenFOAM, please refer to
 
-http://www.openfoam.com
+         http://www.openfoam.com
