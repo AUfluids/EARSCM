@@ -36,27 +36,29 @@ Ali Amarloo <amarloo@mpe.au.dk>
 
 # Instructions
 
-Download the source code using git:
+1. Download the source code using git:
 
          git clone git://github.com/AUfluids/EARSCM.git
 
-Enter the directory where the source code has been extracted, and compile it by typing: wmake libso
+2 .Enter the directory where the source code has been extracted, and compile it by typing: 
 
-Add the following line to the controlDict of your case:
+         wmake libso
+
+3. Add the following line to the _controlDict_ of your case:
 
          libs ( "libOpenFOAM.so" "libEARSCM.so" ) ;
 
-Specify
+4. Specify
 
          RASModel EARSCM;
 
-in turbulentProperties.
+in _turbulentProperties_.
 
-Add the subdictionary
+5. Add the subdictionary
 
          EARSCM { model PCA; c0 -0.17; c1 -0.18; c2 0.98; }
 
-to turbulentProperties.
+to _turbulentProperties_.
 
 # How to cite
 Please, cite this library using the Zenodo DOI: DOI.
