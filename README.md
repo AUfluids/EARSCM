@@ -7,7 +7,7 @@ EARSCM - Implementation of the EARSCM RANS model
 Copyright Information
     Copyright (C) 1991-2009 OpenCFD Ltd.
 
-License
+# License
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -21,20 +21,21 @@ License
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-Description
+# Description
     Implementation of the Explicit algebraic Reynolds stress correction model (EARSCM)
     enhanced for the prediction of secondary flows based on standard k-omega SST.
     Three coefficients can be tuned by the user to change the model's performance.
     Stardard optmised values are given by the model.
 
-Target platform
+# Target platform
     The code is known to work with OpenFOAM v2212.
 
-Authors
+# Authors
     Mario Javier Rincón <mjrp@mpe.au.dk>
     Ali Amarloo <amarloo@mpe.au.dk>
 
-Instructions
+# Instructions
+
 Download the source code using git:
 
 git clone git://github.com/AlbertoPa/dynamicSmagorinsky.git
@@ -57,12 +58,12 @@ EARSCM { model PCA; c0 -0.17; c1 -0.18; c2 0.98; }
 
 to turbulentProperties.
 
-How to cite
+# How to cite
 Please, cite this library using the Zenodo DOI: DOI.
 
 For release-specific DOIs, click on the badge and find the DOI corresponding to the desired version in the version list.
 
-Disclaimer
+# Disclaimer
 This offering is not approved or endorsed by OpenCFD Limited, the producer of the OpenFOAM software and owner of the OPENFOAM® and OpenCFD® trade marks.
 
 Detailed information on the OpenFOAM trademark can be found at
