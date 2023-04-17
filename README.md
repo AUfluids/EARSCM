@@ -66,13 +66,21 @@ Please, cite this library using the following DOI: DOI.
 Rincón and Amarloo (2023)
 
 @article{rinconAmarloo2023progressive,
+
   title={Progressive augmentation of Reynolds stress tensor models for secondary flow prediction by computational fluid dynamics driven surrogate optimisation},
+  
   author={Rinc{\'o}n, Mario Javier and Amarloo, Ali and Reclari, Martino and Abkar, Mahdi},
+  
   journal={International Journal of Heat and Fluid Flow},
+  
   volume={100},
+  
   pages={109112},
+  
   year={2023},
+  
   publisher={Elsevier}
+  
 }        
 
 For release-specific DOIs, click on the badge and find the DOI corresponding to the desired version in the version list.
