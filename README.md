@@ -64,6 +64,7 @@ to _turbulentProperties_.
 Please, cite this library using the following DOI: DOI.
 
 Rincón and Amarloo (2023)
+
 @article{rinconAmarloo2023progressive,
   title={Progressive augmentation of Reynolds stress tensor models for secondary flow prediction by computational fluid dynamics driven surrogate optimisation},
   author={Rinc{\'o}n, Mario Javier and Amarloo, Ali and Reclari, Martino and Abkar, Mahdi},
