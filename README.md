@@ -1,5 +1,5 @@
 # EARSCM
-Explicit algebraic Reynolds stress correction model (EARSCM) enhanced for the prediction of secondary flows based on RANS k-omega SST turbulence model.
+Explicit algebraic Reynolds stress correction model (EARSCM) enhanced for the prediction of secondary flows based on RANS $k-\omega$ SST turbulence model.
 Developed by Fluid Physics & Turbulence research group at Aarhus University.
 
 EARSCM - Implementation of the EARSCM RANS model
@@ -24,9 +24,9 @@ Copyright Information
 
 ## Description
 Implementation of the Explicit algebraic Reynolds stress correction model (EARSCM)
-enhanced for the prediction of secondary flows based on standard k-omega SST.
-Three coefficients can be tuned by the user to change the model's performance.
-Stardard optmised values are given by the model.
+enhanced for the prediction of secondary flows based on standard RANS $k-\omega$ SST.
+Three coefficients can be modified by the user to change the model's performance.
+Standard optimised values are given by default in the model.
 
 ## Target platform
 The code is known to work with OpenFOAM v2212.
