@@ -25,6 +25,8 @@ Copyright Information
 ## Description
 Implementation of the Explicit algebraic Reynolds stress correction model (EARSCM)
 enhanced for the prediction of secondary flows based on standard RANS $k-\omega$ SST.
+The model has been developed for 2D flows but its applicability has been tested on 3D
+flows, yielding similar results.
 Three coefficients can be modified by the user to change the model's performance.
 Standard optimised values are given by default in the model.
 
@@ -43,27 +45,22 @@ Ali Amarloo <amarloo@mpe.au.dk>
 
 2 .Enter the directory where the source code has been extracted, and compile it by typing: 
 
-         wmake libso
+         wmake
 
 3. Add the following line to the _controlDict_ of your case:
 
-         libs ( "libOpenFOAM.so" "libEARSCM.so" ) ;
+         libs ( "libEARSCMIncompressibleTurbulenceModels" ) ;
 
 4. Specify
 
-         RASModel EARSCM;
+         RASModel kOmegaSSTEARSCM2D;
 
 in _turbulentProperties_.
 
 5. Add the subdictionary
 
-         EARSCM { 
-                  model PCA; 
-                  C0 -0.17; 
-                  C1 -0.18; 
-                  C2 0.98; 
-                }
-
+         EARSCM 2;  // 0: off | 1: ModelI | 2: ModelII
+z
 to _turbulentProperties_.
 
 ## How to cite
@@ -72,8 +69,8 @@ Please, cite this library using the following DOI: DOI.
 Rincón and Amarloo (2023)
 @article{rinconAmarloo2023progressive,
   title={Progressive augmentation of Reynolds stress tensor models for secondary flow prediction by computational fluid dynamics driven surrogate optimisation},
-  author={Rinc{\'o}n, Mario Javier and Amarloo, Ali and Reclari, Martino and Abkar, Mahdi},
-  journal={International Journal of Heat and Fluid Flow},
+  author={Rinc{\'o}n, Mario Javier and Amarloo, Ali and Abkar, Mahdi},
+  journal={Computers and Fluids},
   volume={100},
   pages={109112},
   year={2023},
