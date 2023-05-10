@@ -187,7 +187,7 @@ tmp<fvVectorMatrix> kOmegaSSTEARSCM2DBase<BasicEddyViscosityModel>::divDevReff
     volVectorField& U
 ) const
 {
-    Info << "In: nonlinearRST::divDevReff()" << endl;
+    //Info << "In: nonlinearRST::divDevReff()" << endl;
     return
     (
       - fvc::div((this->alpha_*this->rho_*this->nuEff())*dev2(T(fvc::grad(U))))
@@ -754,7 +754,7 @@ void kOmegaSSTEARSCM2DBase<BasicEddyViscosityModel>::correct()
             Theta_[i] = (C1II_.value()*PC1_Coef[i] + C2II_.value()*PC2_Coef[i])/Std_Funcs[i];
         }
         Theta_[0] = Theta_[0] + C0II_.value();
-        Info << "Theta_: " << Theta_ << endl;
+        //Info << "Theta_: " << Theta_ << endl;
 
 
         alpha2EARSCM2D_ =    Theta_[0]
