@@ -63,6 +63,10 @@ in _turbulentProperties_.
 z
 to _turbulentProperties_.
 
+## Test results
+
+![alt text](https://github.com/AUfluids/EARSCM/blob/main/Test_Cases/testResults/SD_u.png)
+
 ## How to cite
 Please, cite this library using the following DOI: DOI.
 
