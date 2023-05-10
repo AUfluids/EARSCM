@@ -69,7 +69,7 @@ For more details, refer to the publication at: LINK Progressive augmentation of 
 
 Qualitative results for a square duct at bulk Reynolds number 3500 for Model **II**.
 ![alt text](https://github.com/AUfluids/EARSCM/blob/main/Test_Cases/testResults/SD_u.png)
-Quantitaive results for a square duct at bulk Reynolds number 3500 for Model **II**.
+Quantitative results for a square duct at bulk Reynolds number 3500 for Model **II**.
 ![alt text](https://github.com/AUfluids/EARSCM/blob/main/Test_Cases/testResults/SD_u.png)
 ## How to cite
 Please, cite this library using the following DOI: DOI.
