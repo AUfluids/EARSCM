@@ -68,9 +68,9 @@ to _turbulentProperties_.
 For more details, refer to the publication at: LINK Progressive augmentation of Reynolds stress tensor models for secondary flow prediction by computational fluid dynamics driven surrogate optimisation
 
 Qualitative results for a duct flow of aspect ratio 1 at bulk Reynolds number 3500 for Model **II**:
-![alt text](https://github.com/AUfluids/EARSCM/blob/main/Test_Cases/testResults/SD_u.png)
+![alt text](https://github.com/AUfluids/EARSCM/blob/main/testCases/testResults/SD_u.png)
 Quantitative results:
-![alt text](https://github.com/AUfluids/EARSCM/blob/main/Test_Cases/testResults/SD_profiles.png)
+![alt text](https://github.com/AUfluids/EARSCM/blob/main/testCases/testResults/SD_profiles.png)
 
 ## How to cite
 Please, cite this library using the following DOI: DOI.
