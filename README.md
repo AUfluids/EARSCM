@@ -63,6 +63,13 @@ in _turbulentProperties_.
 z
 to _turbulentProperties_.
 
+NOTE: You might have to define the bijDelta term in fvSchemes, here you have an example:
+
+         divSchemes
+         {
+                  div(dev(((2*k)*bijDelta)))          Gauss linear;
+         }
+
 ## Test results
 
 For more details, refer to the publication at: LINK Progressive augmentation of Reynolds stress tensor models for secondary flow prediction by computational fluid dynamics driven surrogate optimisation
