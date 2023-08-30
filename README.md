@@ -88,8 +88,8 @@ Rincón and Amarloo (2023)
            title={Progressive augmentation of Reynolds stress tensor models for secondary flow prediction by computational fluid dynamics driven surrogate optimisation},
            author={Rinc{\'o}n, Mario Javier and Amarloo, Ali and Reclari, Martino and Yang, Xiang and Abkar, Mahdi},
            journal={Internaltional Journal of Heat and Fluid Flow},
-           volume={100},
-           pages={109112},
+           volume={000},
+           pages={0000},
            year={2023},
            publisher={Elsevier}
          }
