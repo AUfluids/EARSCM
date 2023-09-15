@@ -41,7 +41,7 @@ Ali Amarloo <amarloo@mpe.au.dk>
 
 1. Download the source code using git:
 
-         git clone git://github.com/AUfluids/EARSCM.git
+         git clone https://github.com/AUfluids/EARSCM.git
 
 2 .Enter the directory where the source code has been extracted, and compile it by typing: 
 
