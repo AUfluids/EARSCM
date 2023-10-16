@@ -459,7 +459,7 @@ kOmegaSSTEARSCM2DBase<BasicEddyViscosityModel>::kOmegaSSTEARSCM2DBase
         (
             "C0II",
             this->coeffDict_,
-            -0.1666883240973904
+            -1.0
         )
     ),
     C1II_
@@ -468,7 +468,7 @@ kOmegaSSTEARSCM2DBase<BasicEddyViscosityModel>::kOmegaSSTEARSCM2DBase
         (
             "C1II",
             this->coeffDict_,
-            -0.1815045953938803
+            0.0
         )
     ),
     C2II_
@@ -477,7 +477,7 @@ kOmegaSSTEARSCM2DBase<BasicEddyViscosityModel>::kOmegaSSTEARSCM2DBase
         (
             "C2II",
             this->coeffDict_,
-            0.9836901654599369
+            0.0
         )
     ),
     F3_
